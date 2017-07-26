@@ -1,0 +1,373 @@
+/* NAVBAR STYLING */
+.navbar-inverse {
+      background-color:#001a00 !important;
+      border:#F76E00 !important;
+
+    }
+.navbar-inverse li a:hover{
+  background-color: #F76E00 !important;
+}
+
+ .navbar-inverse .active{
+  color: #F76E00 !important;
+}
+
+.navbar-inverse .dropdown-menu {
+  background-color: #000 !important;
+  padding-right: -0.5px !important;
+}
+
+
+.navbar-inverse ul li{
+  padding-right: 40px;
+  color: #fff !important;
+}
+
+
+
+
+    #logo{
+      height: 250%;
+      margin-left: 5px;
+      margin-top: -15px;
+
+    }
+
+
+/*LANDING PAGE STYLING*/
+#landing-page-text {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    left: 24.6%;
+    top: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 40px;
+    margin: 20px;
+}
+
+
+.trial {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+
+ .fa-chevron-circle-down{
+   color: #b7b795;
+   overflow: hidden;
+ }
+
+ .arrow{
+   margin-bottom: -20px;
+ }
+
+
+
+
+
+/*carousel images with overlay*/
+
+.image1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../images/img/city.jpg");
+    background-attachment: fixed;
+    transition: 2sec;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.image2 {
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0, 0, 0, 0.4)), url("../images/img/lapi.jpg");
+    background-attachment: fixed;
+    transition: 2sec;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+.image3 {
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0, 0, 0, 0.4)),url("../images/img/analytics.jpg");
+    background-attachment: fixed;
+    transition: 2sec;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.item {
+    background-size: cover;
+    padding: 300px;
+}
+
+
+
+.button {
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  #logo{
+    background-image: image("../images/img/kenya.jpg");
+  }
+
+  /*SERVICES SECTION*/
+  /*BPM CONSULTANCY STYLES*/
+  .dropown-menu{
+    background-color: #000;
+  }
+
+  .bpm-bg{
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/bg1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+
+  }
+
+  .bpm-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 200px;
+  }
+
+  #bpm-col{
+    background-color:  #ebebe0;
+    cursor: pointer;
+  }
+
+  #bpm-col p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+  }
+
+  /*end of bpm*/
+  .about{
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/bg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .about-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    padding-top: 200px;
+  }
+
+  .text{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 60px;
+    text-align: justify;
+
+  }
+
+  .head1 , .head3{
+    color: orange;
+  }
+
+  .head2{
+    color: black;
+  }
+
+  /*END OF ABOUT*/
+
+  /*ANALYTICS STYLINGS*/
+
+  .analytics{
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/bg4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .analytics-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #F76E00;
+    font-size: 50px;
+    padding-top: 200px;
+  }
+
+  /*FOOTER*/
+  .site-footer{
+    display: block;
+    background-color:  #001a00;
+    height: auto;
+  }
+  .site-footer ul li a{
+    color: #F76E00;
+
+  }
+
+  #col-text{
+    color: #F76E00;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+  }
+
+  #col-text, li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #F76E00;
+  }
+
+  .txt{
+    color: #fff;
+    margin-left: 40px;
+  }
+
+  .media, a:hover{
+    text-decoration: none;
+  }
+
+  .copyright{
+    color: #fff;
+  }
+
+
+  /*probucts styles*/
+
+  .pro-bg{
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/new1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+  }
+  .pro-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 200px;
+  }
+
+
+
+
+  /*GET IN TOUCH STYLES*/
+  .get-bg{
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/tel.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+  }
+  .get-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 200px;
+  }
+
+  /*PARTNERS SECTION*/
+  .partners{
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/partner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 55vh;
+  }
+
+  .partner-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 200px;
+  }
+
+#columns{
+  padding-right: 0.2px;
+  cursor: pointer;
+}
+
+#img-size{
+  height: 100px;
+  width: 90px;
+}
+
+#img-size2{
+  height: 100px;
+  width: 90px;
+  background-color: #ebebe0;
+}
+
+#img-size3{
+  height: 160px;
+  width: 120px;
+  background-color: #ebebe0;
+}
+
+#comps{
+  padding-left: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0BC9CD;
+}
+
+.img1:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 2em;
+}
+
+.overlay, a{
+  color: #000;
+  text-decoration: none;
+}
