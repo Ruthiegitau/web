@@ -211,6 +211,20 @@
   list-style-type: square;
 }
 
+.bpm-bg{
+  background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/bg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vh;
+}
+
+.bpm-text{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 60px;
+  padding-top: 200px;
+}
+
   /*end of bpm*/
   .about{
     background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/bg2.jpg");
