@@ -1,8 +1,7 @@
 /* NAVBAR STYLING */
 .navbar-default {
  background-color: #fff !important;
- border-top-color: #001a00 !important;
- border-top: 2px solid #F76E00;
+ border-bottom: 2px solid #001a00;
  margin: 0;
 
 }
@@ -39,7 +38,7 @@
 
 .navbar-default ul li{
   padding-right: 40px;
-  color: #green !important;
+  color: green !important;
   font-weight: 400 !important;
   font-size: 17px;
 }
@@ -132,17 +131,36 @@
     padding: 300px;
 }
 
+#why-section{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.paragraph{
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.whyzone{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+
+}
 
 
 .button {
-  border-radius: 6px;
+  border-radius: 4px;
   background-color: #f4511e;
   border: none;
-  color: #fff;
+  color: #FFFFFF;
   text-align: center;
   font-size: 20px;
   padding: 20px;
-  width: 220px;
+  width: 150px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -172,9 +190,16 @@
   opacity: 1;
   right: 0;
 }
-  #logo{
-    background-image: image("../images/img/kenya.jpg");
-  }
+
+#bpm{
+  margin-left: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+
+
+
 
   /*SERVICES SECTION*/
   /*BPM CONSULTANCY STYLES*/
@@ -227,8 +252,7 @@
   .text{
     font-family: 'Roboto', sans-serif;
     margin: 40px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 18px;
     margin-top: 60px;
     text-align: justify;
 
@@ -263,9 +287,9 @@
 
   /*FOOTER*/
   .site-footer{
-    display: block;
     background-color:  #001a00;
     height: auto;
+
   }
   .site-footer ul li a{
     color: #F76E00;
@@ -276,13 +300,107 @@
     color: #F76E00;
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
+
   }
 
-  #col-text, li{
+
+  #col-text ul li{
     text-decoration: none;
     list-style-type: none;
     color: #F76E00;
+
   }
+
+
+
+
+  .smGlobalBtn { /* global button class */
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border:2px solid #ddd; /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      -moz-border-radius:27px;
+      -webkit-border-radius:27px;
+  }
+
+  /* facebook button class*/
+  .facebookBtn{
+      background: #4060A5;
+  }
+
+  .facebookBtn:before{ /* use :before to add the relevant icons */
+      font-family: "FontAwesome";
+      content: "\f09a"; /* add facebook icon */
+  }
+
+  .facebookBtn:hover{
+      color: #4060A5;
+      background: #fff;
+      border-color: #4060A5; /* change the border color on mouse hover */
+  }
+
+  /* twitter button class*/
+  .twitterBtn{
+      background: #00ABE3;
+  }
+
+  .twitterBtn:before{
+        font-family: "FontAwesome";
+        content: "\f099"; /* add twitter icon */
+
+  }
+
+  .twitterBtn:hover{
+        color: #00ABE3;
+        background: #fff;
+        border-color: #00ABE3;
+  }
+
+  /* google plus button class*/
+  .googleplusBtn{
+      background: #e64522;
+  }
+
+  .googleplusBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0d5"; /* add googleplus icon */
+  }
+
+  .googleplusBtn:hover{
+        color: #e64522;
+        background: #fff;
+        border-color: #e64522;
+  }
+
+  /* linkedin button class*/
+  .linkedinBtn{
+      background: #0094BC;
+  }
+
+  .linkedinBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0e1"; /* add linkedin icon */
+  }
+
+  .linkedinBtn:hover{
+        color: #0094BC;
+        background: #fff;
+        border-color: #0094BC;
+  }
+
+
+
 
   .txt{
     color: #fff;
