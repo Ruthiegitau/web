@@ -203,36 +203,13 @@
 
   /*SERVICES SECTION*/
   /*BPM CONSULTANCY STYLES*/
-  .dropown-menu{
-    background-color: #000;
-  }
 
-  .bpm-bg{
-    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(85, 85, 0, 0.7)),url("../images/img/bg1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 50vh;
-
-  }
-
-  .bpm-text{
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    font-size: 50px;
-    padding-top: 200px;
-  }
-
-  #bpm-col{
-    background-color:  #ebebe0;
-    cursor: pointer;
-  }
-
-  #bpm-col p{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-
-  }
+#servicebpm{
+  margin-right: 30px;
+}
+.service-list{
+  list-style-type: square;
+}
 
   /*end of bpm*/
   .about{
@@ -243,14 +220,14 @@
   }
 
   .about-text{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
     font-size: 60px;
     padding-top: 200px;
   }
 
   .text{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
     margin: 40px;
     font-size: 18px;
     margin-top: 60px;
@@ -258,13 +235,7 @@
 
   }
 
-  .head1 , .head3{
-    color: orange;
-  }
 
-  .head2{
-    color: black;
-  }
 
   /*END OF ABOUT*/
 
