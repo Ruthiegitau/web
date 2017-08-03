@@ -14,6 +14,10 @@
 }
 
 
+.navbar-default active a{
+  background-color: red !important;
+}
+
 .navbar-default ul li a:before {
   content: "";
   position: absolute;
@@ -130,6 +134,70 @@
     background-size: cover;
     padding: 300px;
 }
+
+.circle{
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid orange;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 110px;
+  font-size: 80px;
+  overflow: hidden;
+}
+
+
+.circle fa{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: translateY(-50px);
+    text-shadow: 0 50px 0 #fff;
+  }
+  20%
+  {
+    transform: translateY(-50px);
+    text-shadow: 0 50px 0 #fff;
+  }
+  40%
+  {
+    transform: translateY(-50px);
+    text-shadow: 0 50px 0 #fff;
+  }
+  60%
+  {
+    transform: translateY(-50px);
+    text-shadow: 0 50px 0 #fff;
+  }
+  80%
+  {
+    transform: translateY(-50px);
+    text-shadow: 0 50px 0 #fff;
+  }
+
+}
+
+.circle:before{
+  content: 'SCROLL DOWN';
+  position: absolute;
+  color: #fff;
+  font-family: arial;
+  font-size: 10px;
+  left: 12px;
+  top: -22px;
+
+}
+
 
 #why-section{
   margin-left: 60px;
@@ -523,7 +591,7 @@ font-family: 'Roboto', sans-serif;
 #banking-all{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  background-color: grey;
+  background-color: #d6d8db;
 }
 
 .telcom{
@@ -542,5 +610,5 @@ font-family: 'Roboto', sans-serif;
 #telcom-all{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  background-color: grey;
+  background-color: #d6d8db;
 }
